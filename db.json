@@ -1,34 +1,54 @@
-[
-  {
-    "id": 1,
-    "nome": "Maria Silva",
-    "email": "maria_silva@example.com",
-    "comentario": "Que delícia de receita! Vou experimentar fazer em casa.",
-    "data": "2024-05-16",
-    "avaliacao": 5
-  },
-  {
-    "id": 2,
-    "nome": "João Oliveira",
-    "email": "joao_oliveira@example.com",
-    "comentario": "Adorei o vídeo! Muito bem explicado.",
-    "data": "2024-05-15",
-    "avaliacao": 4
-  },
-  {
-    "id": 3,
-    "nome": "Ana Souza",
-    "email": "ana_souza@example.com",
-    "comentario": "Preciso testar essa receita no próximo fim de semana.",
-    "data": "2024-05-14",
-    "avaliacao": 5
-  },
-  {
-    "id": 4,
-    "nome": "Pedro Santos",
-    "email": "pedro_santos@example.com",
-    "comentario": "Que incrível! Vou mostrar para minha mãe, ela vai adorar.",
-    "data": "2024-05-13",
-    "avaliacao": 5
-  }
-]
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Maria Silva",
+      "email": "maria_silva@example.com"
+    },
+    {
+      "id": 2,
+      "nome": "João Oliveira",
+      "email": "joao_oliveira@example.com"
+    },
+    {
+      "id": 3,
+      "nome": "Ana Souza",
+      "email": "ana_souza@example.com"
+    },
+    {
+      "id": 4,
+      "nome": "Pedro Santos",
+      "email": "pedro_santos@example.com"
+    }
+  ],
+  "comentarios": [
+    {
+      "id": 1,
+      "usuario_id": 1,
+      "comentario": "Que delícia de receita! Vou experimentar fazer em casa.",
+      "data": "2024-05-16",
+      "avaliacao": 5
+    },
+    {
+      "id": 2,
+      "usuario_id": 2,
+      "comentario": "Adorei o vídeo! Muito bem explicado.",
+      "data": "2024-05-15",
+      "avaliacao": 4
+    },
+    {
+      "id": 3,
+      "usuario_id": 3,
+      "comentario": "Preciso testar essa receita no próximo fim de semana.",
+      "data": "2024-05-14",
+      "avaliacao": 5
+    },
+    {
+      "id": 4,
+      "usuario_id": 4,
+      "comentario": "Que incrível! Vou mostrar para minha mãe, ela vai adorar.",
+      "data": "2024-05-13",
+      "avaliacao": 5
+    }
+  ]
+}
